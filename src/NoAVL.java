@@ -32,6 +32,13 @@ public class NoAVL<Tipo> {
         return this.chave;
     }
 
+    public void setAltura(int altura) {
+        this.altura = altura;
+    }
+    public int getAltura() {
+        return this.altura;
+    }
+
     public NoAVL setEsquerda(NoAVL esquerda) {
         this.esquerda = esquerda;
         return esquerda;
